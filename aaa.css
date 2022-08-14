@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.navbar>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    font-size: 15px;
+    list-style-type: none;
+}
+ul>li{
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    transition: 0.5s;
+}
+ul>li:hover{
+color: #1B75BB;
+}
+
+.navbar>button{
+    width: 134px;
+    height: 54px;
+    background-color: #1B75BB;
+    margin-left: 200px;
+    font-size: 16px;
+    color: #ffff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.text_img{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img.svg);
+}
+.text{
+    padding-top: 100px;
+    width: 50%;
+    height: 100vh;
+}
+.text>h2{
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 20px;
+    color: #1B75BB;
+}
+.text>h1{
+    padding-left: 50px;
+    font-size: 70px;
+    padding-top: 15px;
+}
+.text>p{
+    font-size: 18px;
+    padding-left: 50px;
+    padding-top: 20px;
+    line-height: 30px;
+    color: #081F32;
+}
+.text>button{
+    width: 138px;
+    height: 56px;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #1B75BB;
+    color: #ffff;
+    cursor: pointer;
+}
+   
+.key{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 680px;
+    height: 110px;
+    margin-top: -30px;
+    margin-left: 60px;
+    background-color: #ffff;
+    box-shadow: 0px 0px 10px;
+    border-radius: 5px;
+}
+.key_div{
+   width: 100px;
+   height: 100px;
+   padding-top: 40px;
+   line-height: 20px;
+}
+.key>button{
+    width: 133px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #1B75BB;
+    color: #ffff;
+    margin-top: 10px;
+    border: none;
+}
+.vidio_text{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    margin-top: 80px;
+    background-image: url(./group.svg);
+}
+
+.nav{
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+    padding-top: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+.nav>p{
+    padding-top: 20px;
+}
+.carts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 50vh;
+}
+.cart{
+     text-align: center;
+     padding-top: 15px;
+     line-height: 25px;
+    width: 262px;
+    height: 258px;
+    background-color: #ffff;
+    border-radius: 5px;
+}
+.cart>h1{
+    padding-top: 30px;
+    color: #081F32;
+}
+.cart>p{
+    font-size: 18px;
+    padding-top: 25px;
+    line-height: 30px;
+    color: #081F32;
+}
+.cart>h2{
+   padding-top: 25px;
+}
+
+.about{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+.about_text{
+    width: 50%;
+    height: 100%;
+}
+.about_img{
+    margin-left: 50px;
+    margin-top: 100px;
+    width: 555px;
+    height: 337px;
+    background-repeat: no-repeat;
+    background-image: url(./Rectangle\ 15.png);
+}
+.about_text>h1{
+    margin-top: 200px;
+    padding-left: 50px;
+}
+.about_text>p{
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #081F32;
+}
+.about_text>button{
+  width: 137px;
+  height: 56px;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #1B75BB;
+  color: #ffffff;
+  border: none;
+}
+.lux{
+ width: 231px;
+ height: 126px;
+ margin-top: 210px;
+ background: rgba(226, 226, 226, 0.4);
+backdrop-filter: blur(10px);
+border-radius: 10px;
+}
+.lux>h3{
+    padding-top: 35px;
+    padding-left: 20px;
+    color: #081F32;
+}
+.lux>p{
+    padding-left: 140px;
+    margin-top: -20px;
+}
+.lux>button{
+width: 105px;
+height: 41px;
+margin-left: 20px;
+margin-top: 20px;
+background: #1B75BB;
+border-radius: 5px;
+font-size: 16px;
+color: #ffffff;
+border: none;
+}
+
